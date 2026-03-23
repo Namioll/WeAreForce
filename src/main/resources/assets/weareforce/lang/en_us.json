@@ -1,5 +1,4 @@
 {
-  "itemGroup.weareforce": "Example Mod Tab",
-  "block.weareforce.example_block": "Example Block",
-  "item.weareforce.example_item": "Example Item"
+  "item.weareforce.katana": "Katana",
+  "creativetab.weareforce.weareforce_items": "We Are Force"
 }
