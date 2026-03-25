@@ -19,6 +19,7 @@ public class CreativeTab {
                     .title(Component.translatable("creativetab.weareforce.weareforce_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Weapon.KATANA);
+                        output.accept(Weapon.W_BOW);
                     }).build());
 
     public static void register(IEventBus eventBus) {

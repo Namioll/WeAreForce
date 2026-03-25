@@ -3,7 +3,9 @@ package me.namioll.weareforce;
 import com.mojang.logging.LogUtils;
 import me.namioll.weareforce.items.CreativeTab;
 import me.namioll.weareforce.items.Weapon;
+import me.namioll.weareforce.util.WItemProperties;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -117,9 +119,7 @@ public class Weareforce {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+            WItemProperties.addCustomItemProperties();
         }
     }
 }

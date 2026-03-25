@@ -1,0 +1,6 @@
+{
+    "parent": "weareforce:item/w_bow",
+    "textures": {
+        "layer0": "weareforce:item/lightning_bow_pulling_0"
+    }
+}
