@@ -20,6 +20,10 @@ public class CreativeTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Weapon.KATANA);
                         output.accept(Weapon.W_BOW);
+                        output.accept(WArmor.W_HELMET);
+                        output.accept(WArmor.W_CHESTPLATE);
+                        output.accept(WArmor.W_LEGGINGS);
+                        output.accept(WArmor.W_BOOTS);
                     }).build());
 
     public static void register(IEventBus eventBus) {

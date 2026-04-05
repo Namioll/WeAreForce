@@ -2,6 +2,7 @@ package me.namioll.weareforce;
 
 import com.mojang.logging.LogUtils;
 import me.namioll.weareforce.items.CreativeTab;
+import me.namioll.weareforce.items.WArmor;
 import me.namioll.weareforce.items.Weapon;
 import me.namioll.weareforce.util.WItemProperties;
 import net.neoforged.api.distmarker.Dist;
@@ -38,6 +39,8 @@ public class Weareforce {
 
         CreativeTab.register(modEventBus);
         Weapon.register(modEventBus);
+        // WMob.register(modEventBus);
+        WArmor.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

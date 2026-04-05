@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "S": {
+    "item": "minecraft:totem_of_undying"
+  }
+  },
+  "pattern": [
+    "X",
+    "S",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "weareforce:katana"
+  }
+}

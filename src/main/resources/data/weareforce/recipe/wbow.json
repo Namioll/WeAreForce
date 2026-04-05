@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "pattern": [
+    " #X",
+    "B X",
+    " #X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "weareforce:w_bow"
+  }
+}

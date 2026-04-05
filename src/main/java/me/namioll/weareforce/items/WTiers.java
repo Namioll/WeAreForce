@@ -8,5 +8,5 @@ import net.neoforged.neoforge.common.SimpleTier;
 
 public class WTiers {
     public static final Tier WXRU= new SimpleTier(WTags.Blocks.INCORRECT_FOR_WXRU_TOOL,
-            1750, 10f, 5f, 10, () -> Ingredient.of(Items.NETHERITE_INGOT));
+            1750, 10f, 5f, 16, () -> Ingredient.of(Items.NETHERITE_INGOT));
 }

@@ -1,5 +1,9 @@
 {
   "item.weareforce.katana": "Katana",
   "item.weareforce.w_bow": "W Bow",
-  "creativetab.weareforce.weareforce_items": "We Are Force"
+  "creativetab.weareforce.weareforce_items": "We Are Force",
+  "item.weareforce.w_helmet": "Samurai Helmet",
+  "item.weareforce.w_chestplate": "Samurai Chestplate",
+  "item.weareforce.w_leggings": "Samurai Leggings",
+  "item.weareforce.w_boots": "Samurai Boots"
 }

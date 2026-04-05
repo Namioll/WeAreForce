@@ -1,5 +1,9 @@
 {
   "item.weareforce.katana": "Катана",
   "item.weareforce.w_bow": "W Лук",
-  "creativetab.weareforce.weareforce_items": "We Are Force"
+  "creativetab.weareforce.weareforce_items": "We Are Force",
+  "item.weareforce.w_helmet": "Самурайский шлем",
+  "item.weareforce.w_chestplate": "Самурайская кираса",
+  "item.weareforce.w_leggings": "Самурайские поножи",
+  "item.weareforce.w_boots": "Самурайские сапоги"
 }

@@ -1,5 +1,6 @@
 package me.namioll.weareforce.items;
 
+import me.namioll.weareforce.Config;
 import me.namioll.weareforce.Weareforce;
 import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
@@ -14,7 +15,7 @@ public class Weapon {
     public static final DeferredItem<SwordItem> KATANA = ITEMS.register("katana",
             () -> new SwordItem(WTiers.WXRU, new Item.Properties()
                     .fireResistant()
-                    .attributes(SwordItem.createAttributes(WTiers.WXRU, 10, -2.4F))));
+                    .attributes(SwordItem.createAttributes(WTiers.WXRU, (int) Config.katanaDamage, (float) Config.katanaSpeed))));
 
     public static final DeferredItem<BowItem> W_BOW = ITEMS.register("w_bow",
             () -> new BowItem(new Item.Properties().durability(450).fireResistant()));
